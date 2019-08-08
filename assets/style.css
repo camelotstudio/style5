@@ -1,0 +1,45 @@
+@font-face {
+  font-family: NotoSans;
+  src: url(./NotoSansCJKtc-Light.otf);
+}
+
+html {
+  height: 100%;
+}
+body {
+  background: #e2e4e7;
+  padding: 0;
+  text-align: center;
+  font-family: "open sans";
+  position: relative;
+  margin: 0;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: NotoSans;
+}
+#header {
+  position: fixed;
+  height: 50px;
+  display: block;
+  width: 100%;
+  z-index: 9;
+  text-align: center;
+  color: #f2f2f2;
+  padding: 20px 0 0 0;
+}
+.title-logo {
+  height: 9vh;
+  /*background-color: #fff;*/
+}
+.wrapper {
+  height: 100% !important;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.page1.ops-section {
+  align-items: center;
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;
+}
